@@ -235,3 +235,122 @@ export const zfTs = () => {
     },
   ]
 }
+
+export const tsAxios = () => {
+  return [
+    {
+      text: 'TypeScript入门',
+      collapsible: true,
+      items: [
+        { text: '初识TypeScript', link: '/ts-axios/chapter1.1' },
+        { text: '安装 TypeScript', link: '/ts-axios/chapter1.2' },
+        { text: '编写第一个 TypeScript 程序', link: '/ts-axios/chapter1.3' },
+      ]
+    },
+    {
+      text: '常用语法',
+      collapsible: true,
+      items: [
+        { text: '基础类型', link: '/ts-axios/chapter2' },
+        { text: '变量声明', link: '/ts-axios/chapter3' },
+        { text: '接口', link: '/ts-axios/chapter4' },
+        { text: '类', link: '/ts-axios/chapter5' },
+        { text: '函数', link: '/ts-axios/chapter6' },
+        { text: '泛型', link: '/ts-axios/chapter7' },
+        { text: '类型推断', link: '/ts-axios/chapter8' },
+        { text: '高级类型', link: '/ts-axios/chapter9' },
+      ]
+    },
+    {
+      text: 'ts-axios 项目初始化',
+      collapsible: true,
+      items: [
+        { text: '需求分析', link: '/ts-axios/chapter11' },
+        { text: '初始化项目', link: '/ts-axios/chapter11' },
+        { text: '编写基础请求代码', link: '/ts-axios/chapter10' },
+      ]
+    },
+    {
+      text: 'ts-axios 基础功能实现',
+      collapsible: true,
+      items: [
+        { text: '处理请求 url 参数', link: '/ts-axios/chapter13' },
+        { text: '处理请求 body 数据', link: '/ts-axios/chapter14' },
+        { text: '处理请求 header', link: '/ts-axios/chapter15' },
+        { text: '获取响应数据', link: '/ts-axios/chapter16' },
+        { text: '处理响应 header', link: '/ts-axios/chapter17' },
+        { text: '处理响应 data', link: '/ts-axios/chapter18' },
+      ]
+    },
+    {
+      text: 'ts-axios 异常情况处理',
+      collapsible: true,
+      items: [
+        { text: '错误处理', link: '/ts-axios/chapter19' },
+        { text: '错误信息增强', link: '/ts-axios/chapter20' },
+      ]
+    },
+    {
+      text: 'ts-axios 接口扩展',
+      collapsible: true,
+      items: [
+        { text: '扩展接口', link: '/ts-axios/chapter21' },
+        { text: 'axios 函数重载', link: '/ts-axios/chapter22' },
+        { text: '响应数据支持泛型', link: '/ts-axios/chapter23' },
+      ]
+    },
+    {
+      text: 'ts-axios 拦截器实现',
+      collapsible: true,
+      items: [
+        { text: '拦截器设计与实现', link: '/ts-axios/chapter24' },
+      ]
+    },
+    {
+      text: 'ts-axios 配置化实现',
+      collapsible: true,
+      items: [
+        { text: '合并配置的设计与实现', link: '/ts-axios/chapter25' },
+        { text: '请求和响应配置化', link: '/ts-axios/chapter26' },
+        { text: '扩展 axios.create 静态接口', link: '/ts-axios/chapter27' },
+      ]
+    },
+    {
+      text: 'ts-axios 取消功能实现',
+      collapsible: true,
+      items: [
+        { text: '取消功能设计与实现', link: '/ts-axios/chapter28' },
+      ]
+    },
+    {
+      text: 'ts-axios 更多功能实现',
+      collapsible: true,
+      items: [
+        { text: 'withCredentials', link: '/ts-axios/chapter29' },
+        { text: 'XSRF 防御', link: '/ts-axios/chapter30' },
+        { text: '上传和下载的进度监控', link: '/ts-axios/chapter31' },
+        { text: 'HTTP 授权', link: '/ts-axios/chapter32' },
+        { text: '自定义合法状态码', link: '/ts-axios/chapter33' },
+        { text: '自定义参数序列化', link: '/ts-axios/chapter34' },
+        { text: 'baseURL', link: '/ts-axios/chapter35' },
+        { text: '静态方法扩展', link: '/ts-axios/chapter36' },
+      ]
+    },
+    {
+      text: 'ts-axios 单元测试', 
+      collapsible: true,
+      items: [
+        { text: '前言', link: '/ts-axios/chapter37' },
+        { text: 'Jest 安装和配置', link: '/ts-axios/chapter38' },
+        { text: '辅助模块单元测试', link: '/ts-axios/chapter39' },
+        { text: '请求模块单元测试', link: '/ts-axios/chapter40' },
+        { text: 'headers 模块单元测试', link: '/ts-axios/chapter41' },
+        { text: 'Axios 实例模块单元测试', link: '/ts-axios/chapter42' },
+        { text: '拦截器模块单元测试', link: '/ts-axios/chapter43' },
+        { text: 'mergeConfig 模块单元测试', link: '/ts-axios/chapter44' },
+        { text: '请求取消模块单元测试', link: '/ts-axios/chapter45' },
+        { text: '剩余模块单元测试', link: '/ts-axios/chapter46' },
+      ]
+    },
+  ]
+}

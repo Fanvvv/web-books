@@ -1,6 +1,11 @@
 export const nav = () => {
   return [
-    { text: 'ts', link: '/ts/index' },
+    { 
+      text: 'TS',
+      items: [
+        { text: 'ts实现axios', link: '/ts-axios/chapter1.1'}
+      ]
+    },
     {
       text: '专栏',
       items: [
