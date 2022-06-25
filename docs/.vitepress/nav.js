@@ -21,7 +21,13 @@ export const nav = () => {
       ]
     },
     {
-      text: '珠峰',
+      text: '大前端',
+      items: [
+        { text: '前端性能优化', link: '/performance-samples/1' },
+      ]
+    },
+    {
+      text: '架构',
       items: [
         { text: 'vue进阶', link: '/item-1' },
         { text: 'vue3', link: '/item-2' },

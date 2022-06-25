@@ -354,3 +354,97 @@ export const tsAxios = () => {
     },
   ]
 }
+
+export const performanceSamples = () => {
+  return [
+    {
+      text: '介绍',
+      collapsible: true,
+      items: [
+        { text: '前端性能优化介绍', link: '/performance-samples/1' },
+      ]
+    },
+    {
+      text: 'Web 性能指标',
+      collapsible: true,
+      items: [
+        { text: '性能指标', link: '/performance-samples/2' },
+        { text: 'RAIL 性能模型', link: '/performance-samples/3' },
+        { text: '基于用户体验的性能指标', link: '/performance-samples/4' },
+        { text: 'Web Vitals', link: '/performance-samples/5' },
+        { text: '其它性能指标', link: '/performance-samples/6' },
+      ]
+    },
+    {
+      text: 'Web 性能测试',
+      collapsible: true,
+      items: [
+        { text: '性能测试', link: '/performance-samples/7' },
+        { text: '使用灯塔 Lighthouse 测试性能', link: '/performance-samples/8' },
+        { text: '使用 WebPageTest 测试性能', link: '/performance-samples/9' },
+        { text: '使用 Chrome DevTools 测试性能', link: '/performance-samples/10' },
+        { text: '性能测量 APIs', link: '/performance-samples/11' },
+        { text: '性能监控', link: '/performance-samples/12' },
+      ]
+    },
+    {
+      text: '前端页面的生命周期',
+      collapsible: true,
+      items: [
+        { text: '生命周期', link: '/performance-samples/13' },
+      ]
+    },
+    {
+      text: '请求和响应优化',
+      collapsible: true,
+      items: [
+        { text: '请求和响应', link: '/performance-samples/14' },
+        { text: 'DNS 解析', link: '/performance-samples/15' },
+        { text: 'HTTP 长连接', link: '/performance-samples/16' },
+        { text: 'HTTP 2', link: '/performance-samples/17' },
+        { text: '避免重定向', link: '/performance-samples/18' },
+        { text: '压缩传输的数据资源', link: '/performance-samples/19' },
+        { text: 'HTTP 缓存', link: '/performance-samples/20' },
+        { text: 'Service Worker 缓存', link: '/performance-samples/21' },
+        { text: 'CDN 缓存', link: '/performance-samples/22' },
+        { text: 'Push 缓存', link: '/performance-samples/23' },
+        { text: '使用服务端渲染', link: '/performance-samples/24' },
+      ]
+    },
+    {
+      text: '渲染优化',
+      collapsible: true,
+      items: [
+        { text: '渲染', link: '/performance-samples/25' },
+        { text: '关键渲染路径优化', link: '/performance-samples/26' },
+        { text: 'JavaScript 执行优化', link: '/performance-samples/27' },
+        { text: '计算样式优化', link: '/performance-samples/28' },
+        { text: '页面布局与重绘优化', link: '/performance-samples/29' },
+        { text: '合成处理', link: '/performance-samples/30' },
+        { text: '小结', link: '/performance-samples/31' },
+      ]
+    },
+    {
+      text: '资源加载优化',
+      collapsible: true,
+      items: [
+        { text: '图片延迟加载', link: '/performance-samples/32' },
+        { text: '视频加载', link: '/performance-samples/33' },
+        { text: '路由懒加载', link: '/performance-samples/34' },
+        { text: '资源优先级', link: '/performance-samples/35' },
+        { text: '小结', link: '/performance-samples/36' },
+      ]
+    },
+    {
+      text: '图片优化',
+      collapsible: true,
+      items: [
+        { text: '图片', link: '/performance-samples/37' },
+        { text: '图片基础', link: '/performance-samples/38' },
+        { text: '图像格式', link: '/performance-samples/39' },
+        { text: '图像使用建议', link: '/performance-samples/40' },
+        { text: '小结', link: '/performance-samples/41' },
+      ]
+    },
+  ]
+}
