@@ -446,5 +446,12 @@ export const performanceSamples = () => {
         { text: '小结', link: '/performance-samples/41' },
       ]
     },
+    {
+      text: '参考链接',
+      collapsible: true,
+      items: [
+        { text: '参考链接', link: '/performance-samples/42' },
+      ]
+    },
   ]
 }
