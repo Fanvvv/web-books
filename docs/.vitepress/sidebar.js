@@ -206,31 +206,31 @@ export const httpFarce = () => {
   ]
 }
 
-export const zfTs = () => {
+export const jgTs = () => {
   return [
     {
       text: '深度学习TypeScript',
       collapsible: true,
       items: [
-        { text: '1.环境配置和搭建', link: '/zf-ts/1' },
-        { text: '2.基础类型', link: '/zf-ts/2' },
-        { text: '3.类型推导', link: '/zf-ts/3' },
-        { text: '4.函数类型', link: '/zf-ts/4' },
-        { text: '5.类', link: '/zf-ts/5' },
-        { text: '6.接口', link: '/zf-ts/6' },
-        { text: '7.泛型', link: '/zf-ts/7' },
-        { text: '8.兼容性', link: '/zf-ts/8' },
-        { text: '9.类型保护', link: '/zf-ts/9' },
-        { text: '10.类型推断', link: '/zf-ts/10' },
-        { text: '11.交叉类型', link: '/zf-ts/11' },
-        { text: '12.条件类型', link: '/zf-ts/12' },
-        { text: '13.内置类型', link: '/zf-ts/13' },
-        { text: '14.装包和拆包', link: '/zf-ts/14' },
-        { text: '15.自定义类型', link: '/zf-ts/15' },
-        { text: '16.unknown', link: '/zf-ts/16' },
-        { text: '17.模块和命名空间', link: '/zf-ts/17' },
-        { text: '18.类型声明', link: '/zf-ts/18' },
-        { text: '19.扩展全局变量类型', link: '/zf-ts/19' },
+        { text: '1.环境配置和搭建', link: '/jg-ts/1' },
+        { text: '2.基础类型', link: '/jg-ts/2' },
+        { text: '3.类型推导', link: '/jg-ts/3' },
+        { text: '4.函数类型', link: '/jg-ts/4' },
+        { text: '5.类', link: '/jg-ts/5' },
+        { text: '6.接口', link: '/jg-ts/6' },
+        { text: '7.泛型', link: '/jg-ts/7' },
+        { text: '8.兼容性', link: '/jg-ts/8' },
+        { text: '9.类型保护', link: '/jg-ts/9' },
+        { text: '10.类型推断', link: '/jg-ts/10' },
+        { text: '11.交叉类型', link: '/jg-ts/11' },
+        { text: '12.条件类型', link: '/jg-ts/12' },
+        { text: '13.内置类型', link: '/jg-ts/13' },
+        { text: '14.装包和拆包', link: '/jg-ts/14' },
+        { text: '15.自定义类型', link: '/jg-ts/15' },
+        { text: '16.unknown', link: '/jg-ts/16' },
+        { text: '17.模块和命名空间', link: '/jg-ts/17' },
+        { text: '18.类型声明', link: '/jg-ts/18' },
+        { text: '19.扩展全局变量类型', link: '/jg-ts/19' },
       ]
     },
   ]

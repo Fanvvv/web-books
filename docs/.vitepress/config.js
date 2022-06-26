@@ -1,5 +1,5 @@
 import { nav } from './nav'
-import { gitTheory, reactHooksPrinciple, browserPrinciple, httpFarce, zfTs, tsAxios, performanceSamples } from './sidebar'
+import { gitTheory, reactHooksPrinciple, browserPrinciple, httpFarce, jgTs, tsAxios, performanceSamples } from './sidebar'
 
 export default {
   title: 'Web-Books',
@@ -20,7 +20,7 @@ export default {
       '/react-hooks-principle/': reactHooksPrinciple(),
       '/browser-principle/': browserPrinciple(),
       '/http-farce/': httpFarce(),
-      '/zf-ts/': zfTs(),
+      '/jg-ts/': jgTs(),
       '/ts-axios/': tsAxios(),
       '/performance-samples/': performanceSamples(),
     }
