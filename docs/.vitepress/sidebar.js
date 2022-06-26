@@ -1,3 +1,4 @@
+// git原理
 export const gitTheory = () => {
   return [
     {
@@ -55,6 +56,7 @@ export const gitTheory = () => {
   ]
 }
 
+// React Hooks核心原理与实践
 export const reactHooksPrinciple = () => {
   return [
     {
@@ -107,6 +109,7 @@ export const reactHooksPrinciple = () => {
   ]
 }
 
+// 浏览器工作原理与实践
 export const browserPrinciple = () => {
   return [
     {
@@ -184,6 +187,7 @@ export const browserPrinciple = () => {
   ]
 }
 
+// 趣谈网络协议
 export const httpFarce = () => {
   return [
     {
@@ -206,6 +210,7 @@ export const httpFarce = () => {
   ]
 }
 
+// 深度学习Typescript
 export const jgTs = () => {
   return [
     {
@@ -236,6 +241,7 @@ export const jgTs = () => {
   ]
 }
 
+// 快速掌握Vue
 export const jgVueApply = () => {
   return [
     {
@@ -260,6 +266,7 @@ export const jgVueApply = () => {
   ]
 }
 
+// ts实现axios
 export const tsAxios = () => {
   return [
     {
@@ -379,6 +386,7 @@ export const tsAxios = () => {
   ]
 }
 
+// 前端性能优化
 export const performanceSamples = () => {
   return [
     {
