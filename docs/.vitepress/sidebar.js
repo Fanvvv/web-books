@@ -236,6 +236,30 @@ export const jgTs = () => {
   ]
 }
 
+export const jgVueApply = () => {
+  return [
+    {
+      text: '快速掌握vue',
+      collapsible: true,
+      items: [
+        { text: '进阶Vue篇（一）', link: '/jg-vue-apply/note-1'},
+        { text: '进阶Vue篇（二）', link: '/jg-vue-apply/note-2'},
+        { text: '进阶Vue篇（三）', link: '/jg-vue-apply/note-3'},
+        { text: '前端自动化测试（一）', link: '/jg-vue-apply/unit-1'},
+        { text: '前端自动化测试（二）', link: '/jg-vue-apply/unit-2'},
+        { text: '前端自动化测试（三）', link: '/jg-vue-apply/unit-3'},
+        { text: 'Vue面试题', link: '/jg-vue-apply/interview-1'},
+        { text: '2021 Vue面试题', link: '/jg-vue-apply/interview-2'},
+        { text: '项目实战', link: '/jg-vue-apply/project-0'},
+        { text: '项目实战（一）', link: '/jg-vue-apply/project-1'},
+        { text: '项目实战（二）', link: '/jg-vue-apply/project-2'},
+        { text: '从0搭建vue组件库', link: '/jg-vue-apply/vue-component-1'},
+        { text: 'Vue3实现Tree组件', link: '/jg-vue-apply/vue-component-2'},
+      ]
+    }
+  ]
+}
+
 export const tsAxios = () => {
   return [
     {

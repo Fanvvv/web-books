@@ -29,7 +29,7 @@ export const nav = () => {
     {
       text: '架构',
       items: [
-        { text: 'vue进阶', link: '/item-1' },
+        { text: '快速掌握vue', link: 'jg-vue-apply/note-1' },
         { text: 'vue3', link: '/item-2' },
         { text: '深度学习TypeScript', link: '/jg-ts/1' }
       ]
