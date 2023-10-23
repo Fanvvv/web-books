@@ -202,9 +202,6 @@ export const httpFarce = () => {
       collapsible: true,
       items: [
         { text: '为什么要学习网络协议？', link: '/http-farce/02' },
-        { text: '为什么要学习网络协议？', link: '/http-farce/03' },
-        { text: '为什么要学习网络协议？', link: '/http-farce/04' },
-        { text: '为什么要学习网络协议？', link: '/http-farce/05' },
       ]
     },
   ]
@@ -483,6 +480,50 @@ export const performanceSamples = () => {
       collapsible: true,
       items: [
         { text: '参考链接', link: '/performance-samples/42' },
+      ]
+    },
+  ]
+}
+
+// nest 入门到实战
+export const nestjsBasic = () => {
+  return [
+    {
+      text: '设计篇',
+      collapsible: true,
+      items: [
+        { text: '需求分析', link: '/nestjs-basic/1需求分析' },
+        { text: '技术选型', link: '/nestjs-basic/2技术选型' },
+      ]
+    },
+    {
+      text: '新手篇',
+      collapsible: true,
+      items: [
+        { text: '熟悉NestJs', link: '/nestjs-basic/3熟悉NestJS' },
+      ]
+    },
+    {
+      text: '配置篇',
+      collapsible: true,
+      items: [
+        { text: '基础功能配置', link: '/nestjs-basic/4基础功能配置' },
+      ]
+    },
+    {
+      text: '工具篇',
+      collapsible: true,
+      items: [
+        { text: '飞书应用对接', link: '/nestjs-basic/5飞书应用对接' },
+        { text: '数据库', link: '/nestjs-basic/6数据库' }
+      ]
+    },
+    {
+      text: '基础篇',
+      collapsible: true,
+      items: [
+        { text: '自定义日志', link: '/nestjs-basic/7自定义日志' },
+        { text: '鉴权与登录', link: '/nestjs-basic/8鉴权与登录' }
       ]
     },
   ]

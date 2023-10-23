@@ -18,6 +18,7 @@ export const nav = () => {
       text: '小册',
       items: [
         { text: 'git原理', link: '/git-theory/vcs' },
+        { text: 'nest入门到实战', link: '/nestjs-basic/1需求分析' },
       ]
     },
     {

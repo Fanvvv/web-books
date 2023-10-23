@@ -1,5 +1,5 @@
 import { nav } from './nav'
-import { gitTheory, reactHooksPrinciple, browserPrinciple, httpFarce, jgTs, jgVueApply, tsAxios, performanceSamples } from './sidebar'
+import { gitTheory, reactHooksPrinciple, browserPrinciple, httpFarce, jgTs, jgVueApply, tsAxios, performanceSamples, nestjsBasic } from './sidebar'
 
 export default {
   title: 'Web-Books',
@@ -24,6 +24,7 @@ export default {
       '/jg-vue-apply': jgVueApply(),
       '/ts-axios/': tsAxios(),
       '/performance-samples/': performanceSamples(),
+      'nestjs-basic': nestjsBasic(),
     }
   }
 }
