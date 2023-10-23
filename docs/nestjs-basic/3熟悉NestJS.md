@@ -196,7 +196,7 @@ src
 
 #### 第一个 http 请求
 
-再依赖安装完毕之后，可以使用如下命令启动 `NestJS` 应用，然后浏览器即可访问 http://localhost:3000/ ：出现如下界面即代表项目已经正常启动了。
+再依赖安装完毕之后，可以使用如下命令启动 `NestJS` 应用，然后浏览器即可访问 `http://localhost:3000/` ：出现如下界面即代表项目已经正常启动了。
 
 ```shell
 $ npm run start
@@ -240,7 +240,7 @@ export class UserController {
 }
 ```
 
-等待程序重新编译运行完毕之后，在浏览器输入 http://localhost:3000/user 访问即可看到：【**你好，世界！**】
+等待程序重新编译运行完毕之后，在浏览器输入 `http://localhost:3000/user` 访问即可看到：【**你好，世界！**】
 
 ![](https://picbed-1258935921.cos.ap-guangzhou.myqcloud.com/20231023171735.png)
 
